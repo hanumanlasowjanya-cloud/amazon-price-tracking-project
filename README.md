@@ -28,10 +28,15 @@ Developed an end-to-end Amazon price tracking system using Selenium and Python t
 
 ## Project Structure
 Amazon_Price_Tracker/
+
 ├── extract_data.py # Web scraping (Amazon data extraction)
+
 ├── dashboard.py # Data visualization using Matplotlib
+
 ├── app.py # Streamlit interactive dashboard
+
 ├── amazon_products.xlsx # Stored product data with date tracking
+
 └── chromedriver.exe # Selenium WebDriver
 
 
