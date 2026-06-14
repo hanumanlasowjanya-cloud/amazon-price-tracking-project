@@ -32,8 +32,13 @@ Online product prices change frequently, making it difficult for customers to id
 
 ## Project Structure
 Amazon_Price_Tracker/
-
-├── extract_data.py # Web scraping (Amazon data extraction)
+docs/
+└── screenshots/
+    ├── dashboard-home.png
+    ├── price-trend-graph.png
+    └── product-analytics.png
+    
+ ── extract_data.py # Web scraping (Amazon data extraction)
 
 ├── dashboard.py # Data visualization using Matplotlib
 
@@ -78,11 +83,16 @@ pip install -r requirements.txt
 Successfully developed an automated price tracking system capable of collecting, storing, and analyzing product price history. The dashboard enables users to identify price trends and potential buying opportunities through interactive visualizations.
 
 ## Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1bec1be-c382-47b2-a58a-aae969b15106" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23d42143-c210-427f-8927-460c16192e9d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7ee6481-b83d-4198-bf7b-c94f2910f093" />
 
+### Dashboard Home
+![Dashboard Home](docs/screenshots/dashboard-home.png)
 
+### Price Trend Graph
+![Price Trend Graph](docs/screenshots/price-trend-graph.png)
+
+### Product Analytics
+![Product Analytics](docs/screenshots/product-analytics.png)
+ 
 ## Author
 HANUMANLA SOWJANYA -
 MCA Graduate | Data Analytics
