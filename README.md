@@ -1,107 +1,121 @@
-# Amazon Price Tracking & Analytics System
+# Amazon Price Tracker
 
-Developed an end-to-end Amazon Price Tracking and Analytics System using Selenium and Python to scrape product data, store historical prices, and visualize trends through interactive dashboards.
+An end-to-end Amazon India price tracking project that scrapes laptop listings with Selenium, stores daily price history in Excel, and visualizes price movement in a Streamlit dashboard.
 
----
-## Problem Statement
+The project is designed as a beginner-friendly data engineering and analytics portfolio project. It demonstrates web scraping, data cleaning, historical storage, price change detection, and dashboard reporting.
 
-Online product prices change frequently, making it difficult for customers to identify the best time to purchase a product. This project automates Amazon price tracking, stores historical price data, and provides visual insights to help users monitor price fluctuations.
-
-## Features
-
-- **Web Scraping**: Extracts real-time product name and price using Selenium  
-- **Data Storage**: Stores historical price data with timestamps in Excel  
-- **Price Tracking**: Tracks price changes over time for trend analysis  
-- **Visualization**: Generates graphs for price trends and comparisons  
-- **Dashboard**: Interactive Streamlit dashboard for product selection and insights  
-- **Automation Ready**: Can be extended for daily automated tracking  
-
----
-
-## Tech Stack
-
-- Python 3.x  
-- Selenium  
-- Pandas  
-- Matplotlib  
-- Streamlit  
-- Excel (openpyxl)
-- Plotly 
-
----
-
-## Project Structure
-Amazon_Price_Tracker/
-docs/
-└── screenshots/
-    ├── dashboard-home.png
-    ├── price-trend-graph.png
-    └── product-analytics.png
-    
- ── extract_data.py # Web scraping (Amazon data extraction)
-
-├── dashboard.py # Data visualization using Matplotlib
-
-├── app.py # Streamlit interactive dashboard
-
-├── amazon_products.xlsx # Stored product data with date tracking
-
-
-
-
----
-
-## 📊 Key Insights
-
-- Tracked product price changes across multiple days  
-- Identified price drop opportunities for better purchasing decisions  
-- Compared prices across different laptop brands  
-- Built time-based analysis using historical data  
-
----
-
-## ⚙️ Setup & Installation
-
-```bash
-pip install selenium pandas matplotlib streamlit openpyxl
-pip install -r requirements.txt
-```
-
-## Skills Demonstrated
-
-* Web Scraping with Selenium
-* Data Collection and Processing
-* Data Cleaning using Pandas
-* Data Visualization with Matplotlib
-* Dashboard Development using Streamlit
-* Historical Data Analysis
-* Automation and Workflow Design
-* Python Programming
-
-## Project Outcome
-
-Successfully developed an automated price tracking system capable of collecting, storing, and analyzing product price history. The dashboard enables users to identify price trends and potential buying opportunities through interactive visualizations.
-
-## Screenshots
+## Dashboard Preview
 
 ### Dashboard Home
+
 ![Dashboard Home](docs/screenshots/dashboard-home.png)
 
 ### Price Trend Graph
+
 ![Price Trend Graph](docs/screenshots/price-trend-graph.png)
 
 ### Product Analytics
+
 ![Product Analytics](docs/screenshots/product-analytics.png)
- 
-## Author
-HANUMANLA SOWJANYA -
-MCA Graduate | Data Analytics
 
-## Contact
-- Email: hanumanlasowjanya@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sowjanya-hanumanla-949298290/
+## Features
 
+- Scrapes Amazon India laptop search results using Selenium.
+- Extracts product name, product URL, price, date, and product ID.
+- Rejects invalid prices where price is missing or less than or equal to zero.
+- Stores daily price history in `amazon_products.xlsx`.
+- Updates the same product for the current day instead of creating duplicate daily rows.
+- Preserves older rows for trend analysis.
+- Shows latest price, previous price, discount percentage, and price movement status.
+- Displays product filters, date filters, price trend charts, cheapest products, and product-level analytics.
 
+## Tech Stack
 
+- Python
+- Selenium
+- Pandas
+- OpenPyXL
+- Streamlit
+- Plotly
 
+## Project Structure
 
+```text
+Amazon_Price/
+|-- app.py
+|-- dashboard.py
+|-- extract_Data.py
+|-- amazon_products.xlsx
+|-- requirements.txt
+|-- README.md
+|-- .gitignore
+`-- docs/
+    `-- screenshots/
+        |-- dashboard-home.png
+        |-- price-trend-graph.png
+        `-- product-analytics.png
+```
+
+## Data Columns
+
+`amazon_products.xlsx` stores the price history with these columns:
+
+- `Product Name`
+- `Product URL`
+- `Price`
+- `Date`
+- `Product ID`
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Scraper
+
+```bash
+python extract_Data.py
+```
+
+The scraper opens Amazon India, collects laptop listings, skips bad prices, and saves the cleaned product history to `amazon_products.xlsx`.
+
+## Run the Dashboard
+
+```bash
+python -m streamlit run app.py
+```
+
+## How Historical Tracking Works
+
+1. The scraper reads existing rows from `amazon_products.xlsx`.
+2. New products are appended as new rows.
+3. Products already captured today are updated for the same day.
+4. Products captured on earlier dates are appended as new daily history rows.
+5. The dashboard compares latest price against previous price to calculate price movement.
+
+## Current Limitations
+
+- Amazon page structure can change, so selectors may need maintenance.
+- Amazon may block automated scraping depending on traffic and browser behavior.
+- Excel is suitable for a portfolio-scale dataset, but a database is better for larger tracking.
+- Product URL improves traceability, but ASIN extraction would be a stronger long-term identifier.
+
+## Next Improvements
+
+- Extract ASIN from product URLs.
+- Add email alerts for price drops.
+- Add scheduled scraping with Windows Task Scheduler, cron, or GitHub Actions.
+- Move storage from Excel to SQLite or PostgreSQL.
+- Add automated tests for price parsing, duplicate handling, and analytics.
+- Deploy the dashboard on Streamlit Community Cloud.
+
+## Portfolio Summary
+
+This project demonstrates a complete scraping-to-dashboard workflow:
+
+- Data collection with Selenium
+- Data cleaning with Pandas
+- Historical tracking in Excel
+- Business analytics with Plotly
+- Interactive reporting with Streamlit
