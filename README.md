@@ -1,8 +1,11 @@
 # Amazon Price Tracking & Analytics System
 
-Developed an end-to-end Amazon price tracking system using Selenium and Python to scrape product data, store historical prices, and visualize trends through interactive dashboards.
+Developed an end-to-end Amazon Price Tracking and Analytics System using Selenium and Python to scrape product data, store historical prices, and visualize trends through interactive dashboards.
 
 ---
+## Problem Statement
+
+Online product prices change frequently, making it difficult for customers to identify the best time to purchase a product. This project automates Amazon price tracking, stores historical price data, and provides visual insights to help users monitor price fluctuations.
 
 ## Features
 
@@ -22,7 +25,8 @@ Developed an end-to-end Amazon price tracking system using Selenium and Python t
 - Pandas  
 - Matplotlib  
 - Streamlit  
-- Excel (openpyxl)  
+- Excel (openpyxl)
+- Plotly 
 
 ---
 
@@ -37,7 +41,6 @@ Amazon_Price_Tracker/
 
 ├── amazon_products.xlsx # Stored product data with date tracking
 
-└── chromedriver.exe # Selenium WebDriver
 
 
 
@@ -56,8 +59,23 @@ Amazon_Price_Tracker/
 
 ```bash
 pip install selenium pandas matplotlib streamlit openpyxl
+pip install -r requirements.txt
 ```
 
+## Skills Demonstrated
+
+* Web Scraping with Selenium
+* Data Collection and Processing
+* Data Cleaning using Pandas
+* Data Visualization with Matplotlib
+* Dashboard Development using Streamlit
+* Historical Data Analysis
+* Automation and Workflow Design
+* Python Programming
+
+## Project Outcome
+
+Successfully developed an automated price tracking system capable of collecting, storing, and analyzing product price history. The dashboard enables users to identify price trends and potential buying opportunities through interactive visualizations.
 
 ## Screenshots
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1bec1be-c382-47b2-a58a-aae969b15106" />
