@@ -8,15 +8,15 @@ The project is designed as a beginner-friendly data engineering and analytics po
 
 ### Dashboard Home
 
-![Dashboard Home](docs/screenshots/dashboard-home.png)
+![dashboard-home.png](dashboard-home.png)
 
 ### Price Trend Graph
 
-![Price Trend Graph](docs/screenshots/price-trend-graph.png)
+![price-trend-graph.png](price-trend-graph.png)
 
 ### Product Analytics
 
-![Product Analytics](docs/screenshots/product-analytics.png)
+![product-analytics.png](product-analytics.png)
 
 ## Features
 
