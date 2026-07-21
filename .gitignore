@@ -1,24 +1,18 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+*.pyc
 
-# Virtual environments
+# Virtual Environment
 .venv/
-venv/
-env/
 
-# IDE files
+# Logs
+*.log
+automation_log.txt
+amazon_scraper.log
+
+# Temporary Excel files
+~$*.xlsx
+
+# IDE
+.vscode/
 .idea/
-*.iml
-
-# Local environment
-.env
-.env.*
-
-# OS files
-.DS_Store
-Thumbs.db
