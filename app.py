@@ -201,7 +201,7 @@ def main():
             labels={"Price": "Price (₹)", "Date": "Date"},
         )
         fig.update_layout(height=430, hovermode="x unified", legend_title_text="")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     left, right = st.columns(2)
     with left:
@@ -210,7 +210,7 @@ def main():
         cheapest["Short Name"] = cheapest["Product Name"].str.slice(0, 34)
         fig = px.bar(cheapest, x="Short Name", y="Price", template="plotly_white")
         fig.update_layout(height=360, xaxis_title="", yaxis_title="Price (₹)")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     with right:
         st.subheader("Product Analytics")
@@ -225,7 +225,11 @@ def main():
             c1, c2 = st.columns(2)
             c1.metric("Cheapest Day", cheapest_day["Date"].strftime("%Y-%m-%d"), rupees(cheapest_day["Price"]))
             c2.metric("Highest Price", rupees(highest_day["Price"]), highest_day["Date"].strftime("%Y-%m-%d"))
-            st.dataframe(product_history.tail(10), use_container_width=True, hide_index=True)
+            st.dataframe(
+    product_history.tail(10),
+    width="stretch",
+    hide_index=True
+)
 
     st.caption(f"Last dashboard refresh: {date.today().isoformat()} | Source file: {EXCEL_FILE}")
 

@@ -65,7 +65,7 @@ LOG_FILE = "amazon_scraper.log"
 
 MAX_PRODUCTS = 50
 
-HEADLESS = False
+HEADLESS = True
 
 PAGE_LOAD_TIMEOUT = 40
 

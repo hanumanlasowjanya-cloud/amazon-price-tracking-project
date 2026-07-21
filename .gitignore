@@ -1,6 +1,7 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
 # Virtual Environment
 .venv/
@@ -16,3 +17,7 @@ amazon_scraper.log
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
