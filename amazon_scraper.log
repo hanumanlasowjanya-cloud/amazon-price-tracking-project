@@ -1,0 +1,209 @@
+2026-07-21 14:12:47,944 | INFO | ======================================================================
+2026-07-21 14:12:47,945 | INFO | Amazon Price Tracker Started
+2026-07-21 14:12:47,945 | INFO | ======================================================================
+2026-07-21 14:12:48,755 | INFO | Loaded 316 history rows.
+2026-07-21 14:12:48,778 | INFO | Existing history rows : 316
+2026-07-21 14:12:48,778 | INFO | Launching Chrome...
+2026-07-21 14:13:06,597 | INFO | Opening Amazon...
+2026-07-21 14:13:13,048 | INFO | Amazon page loaded.
+2026-07-21 14:13:29,194 | INFO | Found 22 product cards.
+2026-07-21 14:13:29,333 | INFO | [01] hp_15_smartchoice,_intel_core | ₹69,990
+2026-07-21 14:13:29,418 | INFO | [02] lenovo_ideapad_slim_3_13th | ₹81,990
+2026-07-21 14:13:29,509 | INFO | [03] hp_15_smartchoice,_13th_gen | ₹49,990
+2026-07-21 14:13:29,596 | INFO | [04] hp_15,_amd_ryzen_5 | ₹61,250
+2026-07-21 14:13:30,131 | INFO | [05] dell_15_ai_powered_laptop, | ₹85,990
+2026-07-21 14:13:30,222 | INFO | [06] dell_15_ai_powered_laptop, | ₹72,990
+2026-07-21 14:13:30,310 | INFO | [07] acer_one_14_laptop_z14-55m | ₹38,750
+2026-07-21 14:13:30,395 | INFO | [08] ebook_11.6"_hd_laptop_| | ₹10,603
+2026-07-21 14:13:30,479 | INFO | [09] dell_15_ai_powered_laptop, | ₹103,990
+2026-07-21 14:13:30,563 | INFO | [10] lenovo_ideapad_slim_3,_13th | ₹79,990
+2026-07-21 14:13:30,647 | INFO | [11] hp_14,_amd_ryzen_7 | ₹59,990
+2026-07-21 14:13:30,733 | INFO | [12] hp_professional_15_(2026),_intel | ₹48,990
+2026-07-21 14:13:30,824 | INFO | [13] lenovo_v15_g4_amd_athlon | ₹44,999
+2026-07-21 14:13:30,909 | INFO | [14] acer_smartchoice_aspire_one,_intel | ₹33,990
+2026-07-21 14:13:30,995 | INFO | [15] hp_15_laptop_|_intel | ₹68,990
+2026-07-21 14:13:31,078 | INFO | [16] hp_15_(2026),_amd_athlon | ₹41,999
+2026-07-21 14:13:31,168 | INFO | [17] lenovo_ideapad_slim_3,_amd | ₹87,990
+2026-07-21 14:13:31,255 | INFO | [18] asus_vivobook_15,_13th_gen, | ₹54,990
+2026-07-21 14:13:31,344 | INFO | [19] hp_omnibook_5_oled_(previously | ₹77,900
+2026-07-21 14:13:31,427 | INFO | [20] lenovo_v15_g6_amd_ryzen | ₹64,999
+2026-07-21 14:13:31,509 | INFO | [21] hp_15,_intel_core_i3-1315u-13th | ₹49,490
+2026-07-21 14:13:31,597 | INFO | [22] hp_15_laptop,_(14th_gen | ₹72,800
+2026-07-21 14:13:31,598 | INFO | Successfully scraped 22 products.
+2026-07-21 14:13:31,598 | INFO | Closing Chrome.
+2026-07-21 14:13:34,088 | INFO | Products scraped : 22
+2026-07-21 14:13:34,433 | INFO | Excel updated successfully.
+2026-07-21 14:13:34,433 | INFO | Total history rows : 336
+2026-07-21 14:13:34,434 | INFO | ======================================================================
+2026-07-21 14:13:34,434 | INFO | Completed Successfully
+2026-07-21 14:13:34,434 | INFO | ======================================================================
+2026-07-21 14:13:34,534 | INFO | Excel updated successfully.
+2026-07-21 14:13:34,534 | INFO | Total history rows : 336
+2026-07-21 14:13:34,535 | INFO | Summary
+2026-07-21 14:13:34,536 | INFO | --------------------------------------------------
+2026-07-21 14:13:34,537 | INFO | Products scraped : 22
+2026-07-21 14:13:34,537 | INFO | History records  : 336
+2026-07-21 14:13:34,538 | INFO | Excel file       : amazon_products.xlsx
+2026-07-21 14:13:34,539 | INFO | --------------------------------------------------
+2026-07-21 14:57:10,112 | INFO | ======================================================================
+2026-07-21 14:57:10,114 | INFO | Amazon Price Tracker Started
+2026-07-21 14:57:10,116 | INFO | ======================================================================
+2026-07-21 14:57:10,799 | INFO | Loaded 336 history rows.
+2026-07-21 14:57:10,818 | INFO | Existing history rows : 336
+2026-07-21 14:57:10,819 | INFO | Launching Chrome...
+2026-07-21 14:57:12,381 | INFO | Opening Amazon...
+2026-07-21 14:57:17,013 | INFO | Amazon page loaded.
+2026-07-21 14:57:33,179 | INFO | Found 22 product cards.
+2026-07-21 14:57:33,284 | INFO | [01] hp_15_(i5_14th_gen), | ₹63,990
+2026-07-21 14:57:33,386 | INFO | [02] hp_omnibook_5_oled_(previously | ₹76,990
+2026-07-21 14:57:33,471 | INFO | [03] hp_15_smartchoice,_13th_gen | ₹49,990
+2026-07-21 14:57:33,972 | INFO | [04] acer_one_14_laptop_z14-55m | ₹38,750
+2026-07-21 14:57:34,050 | INFO | [05] hp_15_smartchoice,_intel_core | ₹69,990
+2026-07-21 14:57:34,125 | INFO | [06] dell_15_ai_powered_laptop, | ₹85,990
+2026-07-21 14:57:34,199 | INFO | [07] ebook_11.6"_hd_laptop_| | ₹10,603
+2026-07-21 14:57:34,274 | INFO | [08] hp_14,_amd_ryzen_7 | ₹59,990
+2026-07-21 14:57:34,348 | INFO | [09] dell_15_ai_powered_laptop, | ₹72,990
+2026-07-21 14:57:34,449 | INFO | [10] dell_15_ai_powered_laptop, | ₹103,990
+2026-07-21 14:57:34,542 | INFO | [11] acer_smartchoice_aspire_one,_intel | ₹33,990
+2026-07-21 14:57:34,622 | INFO | [12] hp_professional_15_(2026),_intel | ₹48,990
+2026-07-21 14:57:34,754 | INFO | [13] lenovo_v15_g4_amd_athlon | ₹44,999
+2026-07-21 14:57:34,827 | INFO | [14] hp_pavilion_plus,_intel_core | ₹63,990
+2026-07-21 14:57:34,899 | INFO | [15] hp_15_(2026),_amd_athlon | ₹41,999
+2026-07-21 14:57:34,974 | INFO | [16] hp_15_laptop_|_intel | ₹68,990
+2026-07-21 14:57:35,049 | INFO | [17] lenovo_ideapad_slim_3,_amd | ₹87,990
+2026-07-21 14:57:35,126 | INFO | [18] asus_vivobook_15,_13th_gen, | ₹54,990
+2026-07-21 14:57:35,200 | INFO | [19] hp_omnibook_5_oled_(previously | ₹77,900
+2026-07-21 14:57:35,301 | INFO | [20] lenovo_v15_g6_amd_ryzen | ₹64,999
+2026-07-21 14:57:35,380 | INFO | [21] hp_15,_intel_core_i3-1315u-13th | ₹49,490
+2026-07-21 14:57:35,459 | INFO | [22] asus_vivobook_s16,14th_gen,_intel | ₹68,990
+2026-07-21 14:57:35,459 | INFO | Successfully scraped 22 products.
+2026-07-21 14:57:35,460 | INFO | Closing Chrome.
+2026-07-21 14:57:37,878 | INFO | Products scraped : 22
+2026-07-21 14:57:37,972 | INFO | PRICE DROPPED | HP 15 Smartchoice, 13th Gen Intel Core i3-1315U(8GB DDR4,512 | ₹51,990 → ₹49,990
+2026-07-21 14:57:38,048 | INFO | PRICE DROPPED | EBook 11.6" HD Laptop | Best Student & Office Work Laptop |  | ₹16,990 → ₹10,603
+2026-07-21 14:57:38,075 | INFO | PRICE INCREASED | Dell 15 AI Powered Laptop, Intel Core Ultra 5 225H, 8GB DDR5 | ₹68,990 → ₹72,990
+2026-07-21 14:57:38,106 | INFO | PRICE DROPPED | Acer Smartchoice Aspire One, Intel Core Celeron N4500, Offic | ₹35,990 → ₹33,990
+2026-07-21 14:57:38,124 | INFO | NO PRICE CHANGE | Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram,
+2026-07-21 14:57:38,144 | INFO | PRICE INCREASED | HP 15 (2026), AMD Athlon Dual Core 7120U - (8 GB DDR5/512 GB | ₹39,660 → ₹41,999
+2026-07-21 14:57:38,168 | INFO | PRICE INCREASED | ASUS Vivobook 15, 13th Gen, Intel Core i3-1315U, 16GB RAM, 5 | ₹52,990 → ₹54,990
+2026-07-21 14:57:38,320 | INFO | Excel updated successfully.
+2026-07-21 14:57:38,321 | INFO | Total history rows : 339
+2026-07-21 14:57:38,321 | INFO | ======================================================================
+2026-07-21 14:57:38,322 | INFO | Completed Successfully
+2026-07-21 14:57:38,322 | INFO | ======================================================================
+2026-07-21 14:57:38,411 | INFO | Excel updated successfully.
+2026-07-21 14:57:38,411 | INFO | Total history rows : 339
+2026-07-21 14:57:38,411 | INFO | Summary
+2026-07-21 14:57:38,412 | INFO | --------------------------------------------------
+2026-07-21 14:57:38,412 | INFO | Products scraped : 22
+2026-07-21 14:57:38,413 | INFO | History records  : 339
+2026-07-21 14:57:38,413 | INFO | Excel file       : amazon_products.xlsx
+2026-07-21 14:57:38,413 | INFO | --------------------------------------------------
+2026-07-21 15:03:09,406 | INFO | ======================================================================
+2026-07-21 15:03:09,406 | INFO | Completed Successfully
+2026-07-21 15:03:09,406 | INFO | ======================================================================
+2026-07-21 15:03:09,407 | INFO | Summary
+2026-07-21 15:03:09,407 | INFO | --------------------------------------------------
+2026-07-21 15:04:16,021 | INFO | ======================================================================
+2026-07-21 15:04:16,021 | INFO | Amazon Price Tracker Started
+2026-07-21 15:04:16,022 | INFO | ======================================================================
+2026-07-21 15:04:16,435 | INFO | Loaded 339 history rows.
+2026-07-21 15:04:16,440 | INFO | Existing history rows : 339
+2026-07-21 15:04:16,440 | INFO | Launching Chrome...
+2026-07-21 15:04:17,498 | INFO | Opening Amazon...
+2026-07-21 15:04:28,894 | INFO | Amazon page loaded.
+2026-07-21 15:04:45,056 | INFO | Found 22 product cards.
+2026-07-21 15:04:45,172 | INFO | [01] hp_15_(i5_14th_gen), | ₹63,990
+2026-07-21 15:04:45,259 | INFO | [02] hp_omnibook_5_oled_(previously | ₹76,990
+2026-07-21 15:04:45,344 | INFO | [03] hp_15_smartchoice,_13th_gen | ₹49,990
+2026-07-21 15:04:45,429 | INFO | [04] acer_one_14_laptop_z14-55m | ₹38,750
+2026-07-21 15:04:45,959 | INFO | [05] hp_15_smartchoice,_intel_core | ₹69,990
+2026-07-21 15:04:46,056 | INFO | [06] lenovo_ideapad_slim_3,_13th | ₹79,990
+2026-07-21 15:04:46,142 | INFO | [07] hp_14,_amd_ryzen_7 | ₹59,990
+2026-07-21 15:04:46,228 | INFO | [08] ebook_11.6"_hd_laptop_| | ₹10,603
+2026-07-21 15:04:46,317 | INFO | [09] dell_15_ai_powered_laptop, | ₹85,990
+2026-07-21 15:04:46,401 | INFO | [10] dell_g_series,_intel_core | ₹89,990
+2026-07-21 15:04:46,494 | INFO | [11] hp_professional_15_(2026),_intel | ₹48,990
+2026-07-21 15:04:46,585 | INFO | [12] lenovo_v15_g4_amd_athlon | ₹44,999
+2026-07-21 15:04:46,673 | INFO | [13] acer_smartchoice_aspire_one,_intel | ₹33,990
+2026-07-21 15:04:46,754 | INFO | [14] hp_pavilion_plus,_intel_core | ₹63,990
+2026-07-21 15:04:46,837 | INFO | [15] hp_15_(2026),_amd_athlon | ₹41,999
+2026-07-21 15:04:46,909 | INFO | [16] hp_15_laptop_|_intel | ₹68,990
+2026-07-21 15:04:46,985 | INFO | [17] lenovo_ideapad_slim_3,_amd | ₹87,990
+2026-07-21 15:04:47,059 | INFO | [18] asus_vivobook_15,_13th_gen, | ₹54,990
+2026-07-21 15:04:47,146 | INFO | [19] hp_omnibook_5_oled_(previously | ₹77,900
+2026-07-21 15:04:47,226 | INFO | [20] lenovo_v15_g6_amd_ryzen | ₹64,999
+2026-07-21 15:04:47,299 | INFO | [21] hp_15,_intel_core_i3-1315u-13th | ₹49,490
+2026-07-21 15:04:47,375 | INFO | [22] hp_15_laptop,_(14th_gen | ₹70,100
+2026-07-21 15:04:47,375 | INFO | Successfully scraped 22 products.
+2026-07-21 15:04:47,375 | INFO | Closing Chrome.
+2026-07-21 15:04:49,848 | INFO | Products scraped : 22
+2026-07-21 15:04:49,888 | INFO | PRICE DROPPED | HP 15 Smartchoice, 13th Gen Intel Core i3-1315U(8GB DDR4,512 | ₹51,990 → ₹49,990
+2026-07-21 15:04:49,937 | INFO | PRICE DROPPED | EBook 11.6" HD Laptop | Best Student & Office Work Laptop |  | ₹16,990 → ₹10,603
+2026-07-21 15:04:49,971 | INFO | NO PRICE CHANGE | Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram,
+2026-07-21 15:04:49,984 | INFO | PRICE DROPPED | Acer Smartchoice Aspire One, Intel Core Celeron N4500, Offic | ₹35,990 → ₹33,990
+2026-07-21 15:04:50,006 | INFO | PRICE INCREASED | HP 15 (2026), AMD Athlon Dual Core 7120U - (8 GB DDR5/512 GB | ₹39,660 → ₹41,999
+2026-07-21 15:04:50,032 | INFO | PRICE INCREASED | ASUS Vivobook 15, 13th Gen, Intel Core i3-1315U, 16GB RAM, 5 | ₹52,990 → ₹54,990
+2026-07-21 15:04:50,168 | INFO | Excel updated successfully.
+2026-07-21 15:04:50,168 | INFO | Total history rows : 340
+2026-07-21 15:04:50,169 | INFO | ======================================================================
+2026-07-21 15:04:50,169 | INFO | Completed Successfully
+2026-07-21 15:04:50,170 | INFO | ======================================================================
+2026-07-21 15:04:50,170 | INFO | Summary
+2026-07-21 15:04:50,171 | INFO | --------------------------------------------------
+2026-07-21 15:04:50,171 | INFO | Products scraped : 22
+2026-07-21 15:04:50,172 | INFO | History records  : 340
+2026-07-21 15:04:50,173 | INFO | Excel file       : amazon_products.xlsx
+2026-07-21 15:04:50,173 | INFO | --------------------------------------------------
+2026-07-21 15:47:40,700 | INFO | ======================================================================
+2026-07-21 15:47:40,700 | INFO | Amazon Price Tracker Started
+2026-07-21 15:47:40,700 | INFO | ======================================================================
+2026-07-21 15:47:41,130 | INFO | Loaded 340 history rows.
+2026-07-21 15:47:41,137 | INFO | Existing history rows : 340
+2026-07-21 15:47:41,138 | INFO | Launching Chrome...
+2026-07-21 15:47:45,918 | INFO | Opening Amazon...
+2026-07-21 15:47:50,817 | INFO | Amazon page loaded.
+2026-07-21 15:48:06,986 | INFO | Found 22 product cards.
+2026-07-21 15:48:07,111 | INFO | [01] hp_omnibook_5_oled_(previously | ₹76,990
+2026-07-21 15:48:07,250 | INFO | [02] hp_14_smartchoice,_intel_core | ₹77,990
+2026-07-21 15:48:09,004 | INFO | [03] hp_15_smartchoice,_13th_gen | ₹49,990
+2026-07-21 15:48:09,077 | INFO | [04] hp_15,_amd_ryzen_5 | ₹61,250
+2026-07-21 15:48:09,232 | INFO | [05] lenovo_ideapad_slim_3,_13th | ₹79,990
+2026-07-21 15:48:09,316 | INFO | [06] hp_omnibook_3,_snapdragon_x | ₹79,990
+2026-07-21 15:48:09,392 | INFO | [07] hp_14,_amd_ryzen_7 | ₹59,990
+2026-07-21 15:48:09,468 | INFO | [08] acer_one_14_laptop_z14-55m | ₹38,750
+2026-07-21 15:48:09,542 | INFO | [09] dell_15_ai_powered_laptop, | ₹103,990
+2026-07-21 15:48:09,662 | INFO | [10] dell_15_(previously_inspiron)_laptop, | ₹50,490
+2026-07-21 15:48:09,753 | INFO | [11] ebook_11.6"_hd_laptop_| | ₹10,603
+2026-07-21 15:48:09,833 | INFO | [12] hp_professional_15_(2026),_intel | ₹48,990
+2026-07-21 15:48:09,910 | INFO | [13] hp_15_laptop_|_intel | ₹68,990
+2026-07-21 15:48:09,982 | INFO | [14] lenovo_v15_g4_amd_athlon | ₹44,999
+2026-07-21 15:48:10,081 | INFO | [15] lenovo_ideapad_slim_3,_amd | ₹87,990
+2026-07-21 15:48:10,154 | INFO | [16] acer_smartchoice_aspire_one,_intel | ₹33,990
+2026-07-21 15:48:10,231 | INFO | [17] hp_15_(2026),_amd_athlon | ₹41,999
+2026-07-21 15:48:10,304 | INFO | [18] asus_vivobook_15,_13th_gen, | ₹54,990
+2026-07-21 15:48:10,377 | INFO | [19] hp_omnibook_5_oled_(previously | ₹77,900
+2026-07-21 15:48:10,449 | INFO | [20] hp_15_laptop,_(14th_gen | ₹72,800
+2026-07-21 15:48:10,520 | INFO | [21] hp_15,_intel_core_i3-1315u-13th | ₹49,490
+2026-07-21 15:48:10,601 | INFO | [22] lenovo_v15_g6_amd_ryzen | ₹64,999
+2026-07-21 15:48:10,602 | INFO | Successfully scraped 22 products.
+2026-07-21 15:48:10,602 | INFO | Closing Chrome.
+2026-07-21 15:48:13,048 | INFO | Products scraped : 22
+2026-07-21 15:48:13,092 | INFO | PRICE DROPPED | HP 15 Smartchoice, 13th Gen Intel Core i3-1315U(8GB DDR4,512 | ₹51,990 → ₹49,990
+2026-07-21 15:48:13,106 | INFO | PRICE INCREASED | HP 15, AMD Ryzen 5 7520U,(16GB LPDDR5, 512GB SSD), Anti-Glar | ₹54,990 → ₹61,250
+2026-07-21 15:48:13,178 | INFO | PRICE DROPPED | EBook 11.6" HD Laptop | Best Student & Office Work Laptop |  | ₹16,990 → ₹10,603
+2026-07-21 15:48:13,213 | INFO | NO PRICE CHANGE | Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram,
+2026-07-21 15:48:13,235 | INFO | PRICE DROPPED | Acer Smartchoice Aspire One, Intel Core Celeron N4500, Offic | ₹35,990 → ₹33,990
+2026-07-21 15:48:13,248 | INFO | PRICE INCREASED | HP 15 (2026), AMD Athlon Dual Core 7120U - (8 GB DDR5/512 GB | ₹39,660 → ₹41,999
+2026-07-21 15:48:13,258 | INFO | PRICE INCREASED | ASUS Vivobook 15, 13th Gen, Intel Core i3-1315U, 16GB RAM, 5 | ₹52,990 → ₹54,990
+2026-07-21 15:48:13,391 | INFO | Excel updated successfully.
+2026-07-21 15:48:13,391 | INFO | Total history rows : 343
+2026-07-21 15:48:13,391 | INFO | ======================================================================
+2026-07-21 15:48:13,392 | INFO | Completed Successfully
+2026-07-21 15:48:13,392 | INFO | ======================================================================
+2026-07-21 15:48:13,392 | INFO | Summary
+2026-07-21 15:48:13,392 | INFO | --------------------------------------------------
+2026-07-21 15:48:13,392 | INFO | Products scraped : 22
+2026-07-21 15:48:13,392 | INFO | History records  : 343
+2026-07-21 15:48:13,392 | INFO | Excel file       : amazon_products.xlsx
+2026-07-21 15:48:13,392 | INFO | --------------------------------------------------

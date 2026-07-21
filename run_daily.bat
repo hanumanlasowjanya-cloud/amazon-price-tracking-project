@@ -2,79 +2,123 @@
 title Amazon Price Tracker - Daily Automation
 
 echo ==========================================
-echo Amazon Price Tracker Daily Automation
+echo Amazon Price Tracker - Daily Automation
 echo ==========================================
 
-REM Go to project folder
+REM ======================================================
+REM Project Folder
+REM ======================================================
+
 cd /d D:\PROJECTS\amazon-price-tracking-project
 
-REM Activate virtual environment
+REM ======================================================
+REM Activate Virtual Environment
+REM ======================================================
+
 call .venv\Scripts\activate.bat
 
-echo.
-echo Running scraper...
-python extract_Data.py
-
 if errorlevel 1 (
-    echo.
-    echo Scraper failed.
-    pause
+    echo Failed to activate virtual environment.
     exit /b 1
 )
 
-echo.
-echo Getting today's date...
-for /f %%i in ('powershell -command "Get-Date -Format yyyy-MM-dd"') do set TODAY=%%i
+REM ======================================================
+REM Log File
+REM ======================================================
+
+set LOGFILE=automation_log.txt
+
+echo. >> %LOGFILE%
+echo ========================================== >> %LOGFILE%
+echo %DATE% %TIME% >> %LOGFILE%
+echo ========================================== >> %LOGFILE%
+
+REM ======================================================
+REM Run Scraper
+REM ======================================================
 
 echo.
-echo Checking Git status...
+echo Running Amazon Scraper...
+
+python extract_Data.py >> %LOGFILE% 2>&1
+
+if errorlevel 1 (
+    echo Scraper failed.
+    exit /b 1
+)
+
+REM ======================================================
+REM Get Today's Date
+REM ======================================================
+
+for /f %%i in ('powershell -command "Get-Date -Format yyyy-MM-dd"') do set TODAY=%%i
+
+REM ======================================================
+REM Git Status
+REM ======================================================
+
+echo.
+echo Checking Git Status...
 
 git status
 
+REM ======================================================
+REM Stage Files
+REM ======================================================
+
 echo.
-echo Staging all changed files...
+echo Staging Files...
 
 git add .
 
 if errorlevel 1 (
-    echo.
     echo Git Add Failed.
-    pause
     exit /b 1
 )
+
+REM ======================================================
+REM Check for Changes
+REM ======================================================
 
 git diff --cached --quiet
 
 if %errorlevel%==0 (
     echo.
     echo No changes detected.
-    pause
     exit /b 0
 )
 
+REM ======================================================
+REM Commit
+REM ======================================================
+
 echo.
-echo Creating commit...
+echo Creating Commit...
 
 git commit -m "Daily Amazon price update - %TODAY%"
 
 if errorlevel 1 (
-    echo.
     echo Git Commit Failed.
-    pause
     exit /b 1
 )
 
+REM ======================================================
+REM Pull Latest Changes
+REM ======================================================
+
 echo.
-echo Pulling latest changes...
+echo Pulling Latest Changes...
 
 git pull --rebase origin main
 
 if errorlevel 1 (
-    echo.
     echo Git Pull Failed.
-    pause
     exit /b 1
 )
+
+REM ======================================================
+REM Push
+REM ======================================================
 
 echo.
 echo Pushing to GitHub...
@@ -82,9 +126,7 @@ echo Pushing to GitHub...
 git push origin main
 
 if errorlevel 1 (
-    echo.
     echo Git Push Failed.
-    pause
     exit /b 1
 )
 
@@ -93,4 +135,4 @@ echo ==========================================
 echo Daily Automation Completed Successfully!
 echo ==========================================
 
-pause
+exit /b 0

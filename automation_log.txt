@@ -1,0 +1,532 @@
+ 
+========================================== 
+21-07-2026 15:47:38.36 
+========================================== 
+2026-07-21 15:47:40,700 | INFO | ======================================================================
+2026-07-21 15:47:40,700 | INFO | Amazon Price Tracker Started
+2026-07-21 15:47:40,700 | INFO | ======================================================================
+2026-07-21 15:47:41,130 | INFO | Loaded 340 history rows.
+2026-07-21 15:47:41,137 | INFO | Existing history rows : 340
+2026-07-21 15:47:41,138 | INFO | Launching Chrome...
+2026-07-21 15:47:45,918 | INFO | Opening Amazon...
+2026-07-21 15:47:50,817 | INFO | Amazon page loaded.
+2026-07-21 15:48:06,986 | INFO | Found 22 product cards.
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 71: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (1, 'hp_omnibook_5_oled_(previously', '76,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 70: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (2, 'hp_14_smartchoice,_intel_core', '77,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 68: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (3, 'hp_15_smartchoice,_13th_gen', '49,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 59: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (4, 'hp_15,_amd_ryzen_5', '61,250')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 68: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (5, 'lenovo_ideapad_slim_3,_13th', '79,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 68: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (6, 'hp_omnibook_3,_snapdragon_x', '79,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 59: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (7, 'hp_14,_amd_ryzen_7', '59,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 67: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (8, 'acer_one_14_laptop_z14-55m', '38,750')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 67: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (9, 'dell_15_ai_powered_laptop,', '103,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 78: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (10, 'dell_15_(previously_inspiron)_laptop,', '50,490')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 64: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (11, 'ebook_11.6"_hd_laptop_|', '10,603')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 73: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (12, 'hp_professional_15_(2026),_intel', '48,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 61: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (13, 'hp_15_laptop_|_intel', '68,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 65: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (14, 'lenovo_v15_g4_amd_athlon', '44,999')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 67: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (15, 'lenovo_ideapad_slim_3,_amd', '87,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 75: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (16, 'acer_smartchoice_aspire_one,_intel', '33,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 65: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (17, 'hp_15_(2026),_amd_athlon', '41,999')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 68: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (18, 'asus_vivobook_15,_13th_gen,', '54,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 71: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (19, 'hp_omnibook_5_oled_(previously', '77,900')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 64: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (20, 'hp_15_laptop,_(14th_gen', '72,800')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 72: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (21, 'hp_15,_intel_core_i3-1315u-13th', '49,490')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 64: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 650, in main
+    scraped_products = scrape_amazon_products()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 434, in scrape_amazon_products
+    logger.info(
+Message: '[%02d] %s | \u20b9%s'
+Arguments: (22, 'lenovo_v15_g6_amd_ryzen', '64,999')
+2026-07-21 15:48:10,602 | INFO | Successfully scraped 22 products.
+2026-07-21 15:48:10,602 | INFO | Closing Chrome.
+2026-07-21 15:48:13,048 | INFO | Products scraped : 22
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 112: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 548, in merge_today_prices
+    logger.info(
+Message: 'PRICE DROPPED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('HP 15 Smartchoice, 13th Gen Intel Core i3-1315U(8GB DDR4,512', '51,990', '49,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 114: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 557, in merge_today_prices
+    logger.info(
+Message: 'PRICE INCREASED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('HP 15, AMD Ryzen 5 7520U,(16GB LPDDR5, 512GB SSD), Anti-Glar', '54,990', '61,250')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 112: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 548, in merge_today_prices
+    logger.info(
+Message: 'PRICE DROPPED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('EBook 11.6" HD Laptop | Best Student & Office Work Laptop | ', '16,990', '10,603')
+2026-07-21 15:48:13,213 | INFO | NO PRICE CHANGE | Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram,
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 112: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 548, in merge_today_prices
+    logger.info(
+Message: 'PRICE DROPPED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('Acer Smartchoice Aspire One, Intel Core Celeron N4500, Offic', '35,990', '33,990')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 114: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 557, in merge_today_prices
+    logger.info(
+Message: 'PRICE INCREASED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('HP 15 (2026), AMD Athlon Dual Core 7120U - (8 GB DDR5/512 GB', '39,660', '41,999')
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u20b9' in position 114: character maps to <undefined>
+Call stack:
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 682, in <module>
+    main()
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 657, in main
+    updated_history = merge_today_prices(
+  File "D:\PROJECTS\amazon-price-tracking-project\extract_Data.py", line 557, in merge_today_prices
+    logger.info(
+Message: 'PRICE INCREASED | %s | \u20b9%s \u2192 \u20b9%s'
+Arguments: ('ASUS Vivobook 15, 13th Gen, Intel Core i3-1315U, 16GB RAM, 5', '52,990', '54,990')
+2026-07-21 15:48:13,391 | INFO | Excel updated successfully.
+2026-07-21 15:48:13,391 | INFO | Total history rows : 343
+2026-07-21 15:48:13,391 | INFO | ======================================================================
+2026-07-21 15:48:13,392 | INFO | Completed Successfully
+2026-07-21 15:48:13,392 | INFO | ======================================================================
+2026-07-21 15:48:13,392 | INFO | Summary
+2026-07-21 15:48:13,392 | INFO | --------------------------------------------------
+2026-07-21 15:48:13,392 | INFO | Products scraped : 22
+2026-07-21 15:48:13,392 | INFO | History records  : 343
+2026-07-21 15:48:13,392 | INFO | Excel file       : amazon_products.xlsx
+2026-07-21 15:48:13,392 | INFO | --------------------------------------------------
